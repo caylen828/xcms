@@ -1,0 +1,49 @@
+.xcms-header-title{
+	color:#fff;
+	font-size:16px;
+	line-height: 48px;
+	margin-left:10px;
+}
+
+.xcms-font-red{color:red;}
+.xcms-font-white{color:white;}
+.xcms-font-gray{color:gray;}
+.xcms-font-blue{color:blue;}
+.xcms-font-black{color:black;}
+.xcms-font-green{color:green;}
+.xcms-font-brown{color:brown;}
+.xcms-font-yellow{color:yellow;}
+.xcms-font-orange{color:orange;}
+.xcms-font-purple{color:purple;}
+
+.xcms-font-size11{font-size:11px;font-weight:normal;}
+.xcms-font-size12{font-size:12px;font-weight:normal;}
+.xcms-font-size13{font-size:13px;font-weight:normal;}
+.xcms-font-size14{font-size:14px;font-weight:normal;}
+.xcms-font-size15{font-size:15px;font-weight:normal;}
+.xcms-font-size16{font-size:16px;font-weight:normal;}
+.xcms-font-size18{font-size:18px;font-weight:normal;}
+.xcms-font-size20{font-size:20px;font-weight:normal;}
+
+.xcms-weight{font-weight: bold;}
+
+.xcms-tr-color1{background-color:#eeeeee;}
+
+.xcms-button1{background-color: #eaeaea;color:#666666;border:solid 1px #ababab;}
+
+.xcms-padding-left5{padding-left:5px;}
+.xcms-padding-left10{padding-left:10px;}
+
+.xcms-margin-left5{margin-left:5px;}
+.xcms-margin-left10{margin-left:10px;}
+.xcms-margin-left15{margin-left:15px;}
+.xcms-margin-left20{margin-left:20px;}
+
+#adminAuditForm input[type=checkbox]{width:20px;height:15px;}
+
+.xcms-pointer{cursor:pointer;}
+
+.xcms_td_title{cursor:pointer;font-weight: bold;color:purple;}
+
+.xcms_left{float:left;}
+.xcms_right{float:right;}

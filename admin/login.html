@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>XCMS 登录</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!--[if lt IE 9]>
+  <script src="../frontFrame/xcms/js/html5shiv.min.js"></script>
+  <script src="../frontFrame/xcms/js/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="../frontFrame/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../frontFrame/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../frontFrame/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="../frontFrame/adminLte/css/AdminLTE.css">
+  <link rel="stylesheet" href="../frontFrame/adminLte/css/skins/_all-skins.css">
+  <link rel="stylesheet" href="../frontFrame/plugins/toastr/toastr.css">
+  <link rel="stylesheet" href="../frontFrame/xcms/css/xcms.css">
+
+  <!-- js -->
+  <script src="../frontFrame/jquery/jquery.min.js"></script>
+  <script src="../frontFrame/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../frontFrame/adminLte/js/adminlte.min.js"></script>
+  <script src="../frontFrame/plugins/fastclick/fastclick.js"></script>
+  <script src="../frontFrame/plugins/bootbox/bootbox.all.min.js"></script>
+  <script src="../frontFrame/plugins/toastr/toastr.min.js"></script>
+  <script src="../frontFrame/xcms/js/ajax.js"></script>
+  <script src="../frontFrame/xcms/js/main.js"></script>
+
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <b>X</b> CMS
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+    <p class="login-box-msg">请输入您的账号密码进行登录</p>
+
+    <form action="" method="post" onsubmit="return subLogin();" id="loginForm">
+      <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="登录账户"  name="admin_account">
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input type="password" class="form-control" placeholder="密码"  name="admin_password">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <!-- /.col -->
+        <div class="col-xs-12">
+          <button type="submit" id="mybutton" class="btn btn-primary btn-block btn-flat ladda-button" data-loading-text="数据提交中，请稍等..." autocomplete=“off”>确认登录</button>
+        </div>
+        <!-- /.col -->
+      </div>
+    </form>
+
+    <p></p>
+    <div class="text-center">
+    Technical Support to <a href="http://www.sh-xuanji.com" target="_blank" class="text-small">SH-Xuanji</a>
+    </div>
+
+  </div>
+  <!-- /.login-box-body -->
+</div>
+<!-- /.login-box -->
+
+</body>
+</html>
